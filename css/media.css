@@ -5,7 +5,7 @@
     width: 97%;
   }
   .message {
-    font-size: 40px;
+    font-size: large;
   }
 }
 
@@ -15,7 +15,7 @@
     width: 98%;
   }
   .message {
-    font-size: 60px;
+    font-size: larger;
   }
 }
 
@@ -25,7 +25,7 @@
     width: 99%;
   }
   .message {
-    font-size: 80px;
+    font-size: x-large;
   }
 }
 
@@ -36,6 +36,6 @@
     max-width: 1600px;
   }
   .message {
-    font-size: 100px;
+    font-size: xx-large;
   }
 }
