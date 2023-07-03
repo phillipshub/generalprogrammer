@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #00091a;
+  font-family: Calibri;
 }
 
 .container {
@@ -11,8 +12,15 @@ body {
 
 .message {
   color: #00b38f;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding-top: 4%;
+}
+
+.copyright {
+  /*color: #000;*/
+  font-weight: 500;
+  margin: 0 auto 0 2%;
 }
 
 #header {
@@ -24,5 +32,9 @@ body {
 }
 
 #footer {
-
+  background-color: #00b38f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
