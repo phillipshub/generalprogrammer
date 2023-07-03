@@ -1,0 +1,41 @@
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .container {
+    width: 97%;
+  }
+  .message {
+    font-size: 40px;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    width: 98%;
+  }
+  .message {
+    font-size: 60px;
+  }
+}
+
+/*Laptop and Desktop*/
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .container {
+    width: 99%;
+  }
+  .message {
+    font-size: 80px;
+  }
+}
+
+/*High Resolution Displays*/
+@media screen and (min-width: 1921px) {
+  .container {
+    margin: 0 auto 0 1%;
+    max-width: 1600px;
+  }
+  .message {
+    font-size: 100px;
+  }
+}
