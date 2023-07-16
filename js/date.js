@@ -1,5 +1,5 @@
 /*
-Site: General Developer
+Site: General Programmer
 Script: Get Year
 Author: Phillip McCullough
 Date: 7/2/2023
