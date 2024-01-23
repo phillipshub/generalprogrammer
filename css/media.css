@@ -27,6 +27,7 @@ This page is for changing the presentation of content for different screen sizes
     padding: unset;
     border: unset;
   }
+
 }
 
 /*Tablet*/
@@ -35,6 +36,7 @@ This page is for changing the presentation of content for different screen sizes
   .message {
     font-size: 60px;
   }
+
 }
 
 /*Laptop and Desktop*/
