@@ -1,48 +1,233 @@
 <!--
 Site: General Programmer
-Author: Phillip McCullough
-HTML: 5
-Date: 7/2/2023
-Last Update: 7/16/2023
-
-This is my personal website for use as a gereral programmer.
+Author: Phillip Ardrey
+Date: October 2025
 -->
 
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media.css">
+    <!-- Character Set-->
+    <meta charset="UTF-8">
 
-  <title>General Programmer</title>
+    <!-- Set Device View -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>General Programmer</title>
+
+    <!-- Mobile styles: up to 767px -->
+    <link rel="stylesheet" href="css/styles.mobile.css" media="screen and (max-width: 767px)">
+
+    <!-- Small screens: 768px to 1024px (e.g. tablets, small laptops) -->
+    <link rel="stylesheet" href="css/styles.small.css" media="screen and (min-width: 768px) and (max-width: 1024px)">
+
+    <!-- Large screens: 1025px and up -->
+    <link rel="stylesheet" href="css/styles.large.css" media="screen and (min-width: 1025px)">
+
+    <!-- Copyright JS -->
+    <script src="js/copyright.js"></script>
+
 
 </head>
 
+
 <body>
 
-  <div id="header">
-    
-  </div>
 
-  <div id="content">
-      <h1 class="message">Under Construction!</h1>
-  </div>
+    <!-- Website Banner -->
+    <div id="website_banner">
+        General Programmer
+    </div>
+    <!-- End Website Banner -->
 
-  <div id="footer">
-    <p>
-      <span class="copyright">
-        © <script src="js/date.js"></script> | 
-        Phillip McCullough, all rights reserved.
-      </span>
-    </p>
-  </div>
+
+    <!-- Main Container -->
+    <div id="main_container">
+
+
+        <!-- Welcome Message-->
+        <h1 id="welcome">Welcome to My Resume</h1>
+        <!-- End Welcome Message -->
+
+
+        <!-- About Me -->
+        <p>
+            I am a general programmer located in San Diego, California. I am passionate
+            about programming and capable of doing so on a variety of platforms. I hold more than half a dozen
+            certifications in various programming languages and an associate’s degree specializing in computer
+            programming from SDCC. The bulk of my knowledge is in compiled programming although I am also quite familiar
+            with WORA (Write Once Run Anywhere) programming and script languages as well. My favorite programming
+            languages to work in are C++ and Python. Beyond holding multiple certifications in several different
+            programming languages, I am also an open source software developer with a couple of publicly available
+            software releases via GitHub.
+        </p>
+
+        <p>
+            <b>I can be fun to work with! </b>Fact: The first computer bug was an actual moth! In 1947, engineers
+            working on the Harvard Mark II
+            computer found a moth trapped in a relay, causing a malfunction. They typed it into their logbook with the
+            note: “First actual case of bug being found.” That’s how the term “debugging” got its wings—literally!
+            &#128514;&#128514;
+        </p>
+        <!-- End About Me -->
+
+
+        <!-- Certifications -->
+        <h2>Programming Certifications</h2>
+
+        <hr>
+
+        <table id="certifications_table">
+
+            <tr>
+                <th>Programming Course</th>
+                <th>Issuing Organization</th>
+                <th>View Certification</th>
+            </tr>
+
+            <tr>
+                <td>C++ For Beginners</td>
+                <td>Udemy</td>
+                <td><a href="assets/programming_certifications/C++ for complete beginers.pdf" target="_blank">C++
+                        For
+                        Beginners</a></td>
+            </tr>
+
+            <tr>
+                <td>Learn C</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Learn_C.pdf" target="_blank">Learn C</a></td>
+            </tr>
+
+            <tr>
+                <td>Learn C++</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Phillip_ Codecademy_Cpp.pdf" target="_blank">Learn
+                        C++</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Learn C++ for Programmers</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Phillip_ Codecademy_Cpp for Programers.pdf"
+                        target="_blank">Learn C++ for Programmers</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Learn Ruby</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Phillip _ Codecademy_Ruby.pdf" target="_blank">Learn
+                        Ruby</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Learn Python 2</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Phillip _ Codecademy_Python_2.pdf" target="_blank">Learn
+                        Python 2</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Learn Python 3</td>
+                <td>Codecademy</td>
+                <td><a href="assets/programming_certifications/Phillip _ Codecademy_Python_3.pdf" target="_blank">Learn
+                        Python 3</a>
+                </td>
+            </tr>
+
+        </table>
+        <!-- End Certifications -->
+
+
+        <!-- Open Source Projects -->
+        <h2>Open Source Software Projects</h2>
+
+        <hr>
+
+        <p>
+            <b>UML Diagram Maker: </b>UML diagrams are important to programmers because they provide a clear, visual
+            representation of a system’s structure and behavior, making it easier to design, communicate, and
+            maintain
+            complex software. They help identify relationships between components, clarify requirements, and support
+            collaboration across teams during development. UML Diagram Maker transforms the daunting task of
+            creating
+            UML diagrams into a simple data entry process. The program gathers input and outputs a properly
+            formatted
+            UML diagram that can easily be placed directly inside the programmer's documentation.
+            <br>
+            <a href="https://github.com/phillipshub/UML-Diagram-Maker" target="_blank">Access Project: UML Diagram
+                Maker</a>
+        </p>
+
+        <p>
+            <b>Simple Benchmark Test: </b>Monitoring server performance over time is essential for maintaining
+            system
+            reliability, optimizing resource usage, and ensuring a seamless user experience. By collecting and
+            analyzing
+            metrics such as server load. Simple Benchmark Test (SBT) is a light weight tool that runs a simple task
+            on a
+            schedule keeping records of the date and time required to run the program.
+            <br>
+            <a href="https://github.com/phillipshub/Simple-Benchmark-Test" target="_blank">Access Project: Simple
+                Benchmark Test</a>
+        </p>
+
+        <p>
+            <b>Prime Race: </b>Famous retired Microsoft Engineer David Plumber held a competition between
+            programming
+            languages to solve the age old dispute as to what programming language is the fastest. My submission is
+            in
+            C++ a compiled programming language. The given task was to see how many times your program could
+            correctly
+            find all prime numbers in a given range within a certain time span. I did not win the competition but
+            did
+            however receive encouraging feedback complementing how clean my code is.
+            <br>
+            <a href="https://github.com/phillipshub/Prime-Race/tree/main" target="_blank">Access Project: Prime
+                Race</a>
+        </p>
+        <!-- End Open Source Projects -->
+
+
+        <!-- Contact Information -->
+        <h2>Contact Information</h2>
+
+        <hr>
+
+        <p id="contact_information">
+            Message service, text or call: (619) 438-5309
+            <br>
+            Email: <a href="mailto: platdev.phillip@gmail.com">platdev.phillip@gmail.com</a>
+        </p>
+        <!-- End Contact Information -->
+
+
+    </div>
+    <!-- End of main container -->
+
+
+    <!-- Copyright -->
+    <div id="copyright">
+
+        <script>
+            copyright();
+        </script>
+
+    </div>
+    <!-- End Copyright -->
+
 
 </body>
+
 
 </html>

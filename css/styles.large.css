@@ -1,0 +1,124 @@
+/*
+Site: General Programmer
+Screen: Large, Width 1025px +
+Author: Phillip Ardrey
+Date: October 2025
+*/
+
+
+/* Page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: powderblue;
+}
+
+
+/* Website Banner */
+#website_banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: lightgreen;
+    border-bottom: 1px solid mediumseagreen;
+    text-align: center;
+    font-size: 6em;
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+}
+
+
+/* Main Container */
+#main_container {
+    padding: 0 5% 0 5%;
+    margin: 190px 0 80px 0;
+}
+
+
+/* Welcome Message */
+#welcome {
+    margin: 0 auto 0 auto;
+    padding: 0 25px 5px 25px;
+    max-width: fit-content;
+    color: black;
+    background-color: lightgreen;
+    border: 1px solid mediumseagreen;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2.25em;
+}
+
+
+/* Heading 2 */
+h2 {
+    color: black;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+
+/* Paragraph */
+p {
+    padding: 0 5% 0 5%;
+    color: black;
+    font-size: 1.1em;
+    text-indent: 2em;
+    line-height: 1.3;
+
+}
+
+
+/* Certifications Table */
+#certifications_table {
+
+    width: 100%;
+
+    th {
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 1.2em;
+        line-height: 1.3;
+    }
+
+    td {
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+}
+
+
+/* Horizontal Row */
+hr {
+    border: 1px solid black;
+}
+
+
+/* Contact Information */
+#contact_information {
+    padding: 0 0 0 10px;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-indent: 0em;
+}
+
+
+/* Copyright */
+#copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 1em;
+    text-indent: 1em;
+    background-color: lightgreen;
+    border-top: 1px solid mediumseagreen;
+    z-index: 1;
+}
