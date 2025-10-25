@@ -6,11 +6,19 @@ Date: October 2025
 */
 
 
+/* Font Aquire */
+@font-face {
+    font-family: Aquire;
+    src: url(../assets/fonts/aquire-font/AquireLight-YzE0o.otf);
+}
+
+
 /* Page */
 body {
     margin: 0;
     padding: 0;
     background-color: powderblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -19,37 +27,38 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-bottom: 20px;
+    padding: 10px 0 10px 0;
     background-color: lightgreen;
     border-top: 1px solid mediumseagreen;
     border-bottom: 1px solid mediumseagreen;
     text-align: center;
-    font-size: 2.25em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: lighter;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Aquire;
     z-index: 1;
 }
 
 
 /* Main Container */
 #main_container {
-    padding: 0 5% 0 5%;
-    margin: 130px 0 80px 0;
+    max-width: 350px;
+    margin: 110px auto 80px auto;
 }
 
 
 /* Welcome Message */
 #welcome {
     margin: 0 auto 0 auto;
-    padding: 0 10px 5px 10px;
+    padding: 0 15px 5px 15px;
     max-width: fit-content;
     color: black;
     background-color: lightgreen;
     border: 1px solid mediumseagreen;
     border-radius: 5px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    font-weight: 450;
 }
 
 
@@ -58,18 +67,27 @@ h2 {
     color: black;
     text-align: center;
     margin-top: 30px;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 
 /* Paragraph */
 p {
-    padding: 0 5% 0 5%;
+    padding: 12px 5px 0 5px;
     color: black;
     font-size: 1em;
-    text-indent: 0em;
-    text-align: center;
-    line-height: 1.4em;
+    font-weight: 400;
+    text-indent: 1em;
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+
+/* Bold Text */
+b {
+    font-weight: 500;
 }
 
 
@@ -77,20 +95,21 @@ p {
 #certifications_table {
 
     width: 100%;
+    margin-bottom: 10px;
 
     th {
-        font-weight: bold;
+        font-weight: 450;
         text-align: center;
         text-decoration: underline;
-        font-size: 1em;
-        line-height: 1.4;
+        font-size: 1.1em;
+        line-height: 1.2;
     }
 
     td {
-        font-weight: normal;
+        font-weight: 400;
         text-align: center;
-        font-size: .9em;
-        line-height: 1.2em;
+        font-size: 1em;
+        line-height: 1.15em;
     }
 }
 
@@ -103,10 +122,10 @@ hr {
 
 /* Contact Information */
 #contact_information {
-    padding: 0;
+    padding-top: 0px;
     color: black;
-    font-size: 1.1em;
-    line-height: 1.4;
+    font-size: 1em;
+    line-height: 1.5;
     text-indent: 0em;
     text-align: center;
 }
@@ -118,7 +137,7 @@ hr {
     bottom: 0;
     width: 100%;
     padding: 10px 0 10px 0;
-    font-size: 1em;
+    font-size: .9em;
     text-align: center;
     background-color: lightgreen;
     border-top: 1px solid mediumseagreen;
